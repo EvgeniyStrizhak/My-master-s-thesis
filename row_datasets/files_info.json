@@ -1,0 +1,1 @@
+[{"url": "https://api.statistiken.bundesbank.de/rest/download/BBNZ1/Q.DE.Y.G.0000.A?format=csv&lang=en", "file_name": "gdp_constant_prices.csv"}, {"url": "https://api.statistiken.bundesbank.de/rest/download/BBNZ1/Q.DE.S.G.0034.A?format=csv&lang=en", "file_name": "households_income.csv"}]
