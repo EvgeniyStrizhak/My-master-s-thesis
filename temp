@@ -1,0 +1,50 @@
+, 
+  {
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBDL1/M.DE.Y.UNE.UBA000.A0000.A01.D00.0.R00.A?format=csv&lang=en", 
+    "file_name": "unemployment_rate.csv",
+    "period": "month",
+    "description": "Unemployment registered pursuant to section 16 Social Security Code III / Germany / Social Security Code III and Social Security Code II / Rate / Calendar and seasonally adjusted",
+    "link_full_description": "https://www.bundesbank.de/en/statistics/economic-activity-and-prices/employment-and-labour-market"
+  }, 
+   {
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBDE1/Q.DE.Y.LCB1.A2N100000.A.L.I20.A?format=csv&lang=en", 
+    "file_name": "labour_costs.csv",
+    "period": "quarter",
+    "description": "Index of gross wages and salaries / Germany / Mining and quarrying, manufacturing and service activities (B-S) / Calendar and seasonally adjusted",
+    "link_full_description": "https://www.bundesbank.de/en/statistics/economic-activity-and-prices/negotiated-pay-rates-and-labour-costs"
+  }, 
+  {
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBDP1/M.DE.Y.HVPI.C.A00000.I15.A?format=csv&lang=en", 
+    "file_name": "consumer_prices.csv",
+    "period": "month",
+    "description": "Harmonised index of consumer prices / Germany / Calendar and seasonally adjusted / Overall index / Adjusted to the annual averages of the calendar-adjusted figures",
+    "link_full_description": "https://www.bundesbank.de/en/statistics/economic-activity-and-prices/harmonised-consumer-prices"
+  }, 
+  {
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBEE1/Q.DE.AAA.XY0AAA.R.AADTB.M00?format=csv&lang=en", 
+    "file_name": "economy's_price competitiveness.csv",
+    "period": "quarter",
+    "description": "indicator of the German economy's price competitiveness \n vis-à-vis 27 selected industrial countries \n based on the deflators of total sales",
+    "link_full_description": "https://www.bundesbank.de/en/statistics/exchange-rates/effective-exchange-rates/-/effective-exchange-rates-of-the-euro-796156"
+  }, 
+  {
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBFBOPV/M.N.DE.W1.S1.S1.T.N.FA._T.F._Z.EUR._T._X.N.ALL?format=csv&lang=en", 
+    "file_name": "balance_of_payments.csv",
+    "period": "month",
+    "description": "Financial account / Net / Rest of the world",
+    "link_full_description": "https://www.bundesbank.de/en/statistics/external-sector/balance-of-payments"
+  }, 
+  {
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBNZ1/Q.DE.Y.H.0000.A?format=csv&lang=en", 
+    "file_name": "gdp.csv",
+    "period": "quarter",
+    "description": "Germany/Overall economy / GDP/Chain-linked index/Calendar and seasonally adjusted",
+    "link_full_description": "https://www.bundesbank.de/en/statistics/macroeconomic-accounting-systems/national-accounts"
+  }, 
+  {
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBIN1/M.D0.ECB.ECBMIN.EUR.ME?format=csv&lang=en", 
+    "file_name": "interest_rate.csv",
+    "period": "month",
+    "description": "ECB interest rates for main refinancing operations / End of month / SU0202",
+    "link_full_description": "https://www.bundesbank.de/en/statistics/money-and-capital-markets/interest-rates-and-yields"
+  }
