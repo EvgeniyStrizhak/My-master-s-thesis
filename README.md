@@ -7,7 +7,7 @@ This project predicts future month price of the Frankfurt Stock Exchange (GDAXI)
 **Project structure:**
 
 - Row_datasets folder contains sources of data which is used by machine learining models
-- Data_pre_processing.ipynb downloads macroeconomic indicators from Bundesbank [database](https://www.bundesbank.de/) and GDAXI index, process them and merge into one dataframe. 
+- Data_pre_processing.ipynb downloads macroeconomic indicators from Bundesbank [database](https://www.bundesbank.de/) and GDAXI index, process them and merge into one dataframe and upload into row_datasets folder
 - The_project.ipynb contains data analysis and model training
 
 **The result**:
