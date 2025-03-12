@@ -1,40 +1,47 @@
 [
   {
+    "category":"Economic Growth & Business Cycle Indicators",
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBNZ1/Q.DE.Y.H.0000.A?format=csv&lang=en", 
+    "file_name": "gdp.csv",
+    "period": "quarter",
+    "description": "Germany/Overall economy / GDP/Chain-linked index/Calendar and seasonally adjusted",
+    "link_full_description": "https://www.bundesbank.de/en/statistics/macroeconomic-accounting-systems/national-accounts"
+  }, 
+   {
+    "category":"Economic Growth & Business Cycle Indicators",
     "url": "https://api.statistiken.bundesbank.de/rest/download/BBDE1/M.DE.Y.BAA1.A2P000000.G.C.I21.A?format=csv&lang=en", 
     "file_name": "production_sector.csv",
     "period": "month",
     "description": "Output in the production sector / Germany / Production sector including construction (B -D, F) / Calendar and seasonally adjusted",
     "link_full_description": "https://www.bundesbank.de/en/statistics/economic-activity-and-prices/output#tar-2"
   }, 
-  {
-    "url": "https://api.statistiken.bundesbank.de/rest/download/BBDE1/M.DE.Y.AEA1.A2P300000.F.C.I21.A?format=csv&lang=en", 
-    "file_name": "orders-received.csv",
-    "period": "month",
-    "description": "Orders received / At constant prices / Germany / Industry / Calendar and seasonally adjusted",
-    "link_full_description": "https://www.bundesbank.de/en/statistics/economic-activity-and-prices/orders-received-and-stock-of-orders#tar-2"
-  }, 
-  {
-    "url": "https://api.statistiken.bundesbank.de/rest/download/BBDL1/M.DE.Y.UNE.UBA000.A0000.A01.D00.0.R00.A?format=csv&lang=en", 
-    "file_name": "unemployment_rate.csv",
-    "period": "month",
-    "description": "Unemployment registered pursuant to section 16 Social Security Code III / Germany / Social Security Code III and Social Security Code II / Rate / Calendar and seasonally adjusted",
-    "link_full_description": "https://www.bundesbank.de/en/statistics/economic-activity-and-prices/employment-and-labour-market"
-  }, 
-   {
-    "url": "https://api.statistiken.bundesbank.de/rest/download/BBDE1/Q.DE.Y.LCB1.A2N100000.A.L.I20.A?format=csv&lang=en", 
-    "file_name": "labour_costs.csv",
-    "period": "quarter",
-    "description": "Index of gross wages and salaries / Germany / Mining and quarrying, manufacturing and service activities (B-S) / Calendar and seasonally adjusted",
-    "link_full_description": "https://www.bundesbank.de/en/statistics/economic-activity-and-prices/negotiated-pay-rates-and-labour-costs"
-  }, 
-  {
+  
+    {
+    "category":"Inflation & Monetary Policy Indicators",
     "url": "https://api.statistiken.bundesbank.de/rest/download/BBDP1/M.DE.Y.HVPI.C.A00000.I15.A?format=csv&lang=en", 
     "file_name": "consumer_prices.csv",
     "period": "month",
     "description": "Harmonised index of consumer prices / Germany / Calendar and seasonally adjusted / Overall index / Adjusted to the annual averages of the calendar-adjusted figures",
     "link_full_description": "https://www.bundesbank.de/en/statistics/economic-activity-and-prices/harmonised-consumer-prices"
   }, 
+    {
+    "category":"Inflation & Monetary Policy Indicators",
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBDP1/M.DE.Y.EPG.G.GP19SA000000.I21.A?format=csv&lang=en", 
+    "file_name": "industrial_production_index.csv",
+    "period": "month",
+    "description": "Index of producer prices of industrial products sold on the domestic market / Germany / Calendar and seasonally adjusted / Total",
+    "link_full_description": "https://www.bundesbank.de/en/statistics/banks-and-other-financial-corporations/investment-companies"
+  }, 
   {
+    "category":"Inflation & Monetary Policy Indicators",
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBIN1/M.D0.ECB.ECBMIN.EUR.ME?format=csv&lang=en", 
+    "file_name": "interest_rate.csv",
+    "period": "month",
+    "description": "ECB interest rates for main refinancing operations / End of month / SU0202",
+    "link_full_description": "https://www.bundesbank.de/en/statistics/money-and-capital-markets/interest-rates-and-yields"
+  },
+   {
+    "category":"Inflation & Monetary Policy Indicators",
     "url": "https://api.statistiken.bundesbank.de/rest/download/BBEE1/Q.DE.AAA.XY0AAA.R.AADTB.M00?format=csv&lang=en", 
     "file_name": "economy's_price competitiveness.csv",
     "period": "quarter",
@@ -42,24 +49,51 @@
     "link_full_description": "https://www.bundesbank.de/en/statistics/exchange-rates/effective-exchange-rates/-/effective-exchange-rates-of-the-euro-796156"
   }, 
   {
+    "category":"Labor Market Indicators",
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBDL1/M.DE.Y.UNE.UBA000.A0000.A01.D00.0.R00.A?format=csv&lang=en", 
+    "file_name": "unemployment_rate.csv",
+    "period": "month",
+    "description": "Unemployment registered pursuant to section 16 Social Security Code III / Germany / Social Security Code III and Social Security Code II / Rate / Calendar and seasonally adjusted",
+    "link_full_description": "https://www.bundesbank.de/en/statistics/economic-activity-and-prices/employment-and-labour-market"
+  }, 
+   {
+    "category":"Labor Market Indicators",
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBDE1/Q.DE.Y.LCB1.A2N100000.A.L.I20.A?format=csv&lang=en", 
+    "file_name": "labour_costs.csv",
+    "period": "quarter",
+    "description": "Index of gross wages and salaries / Germany / Mining and quarrying, manufacturing and service activities (B-S) / Calendar and seasonally adjusted",
+    "link_full_description": "https://www.bundesbank.de/en/statistics/economic-activity-and-prices/negotiated-pay-rates-and-labour-costs"
+  }, 
+     {
+    "category":"Market & Investment Sentiment Indicators",
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBSSP/M.AB.IVF.A.T.T._T?format=csv&lang=en", 
+    "file_name": "mutual_funds_sales.csv",
+    "period": "quarter",
+    "description": "Sales (=total purchases) of domestic an foreign mutual fund shares",
+    "link_full_description": "https://www.bundesbank.de/en/statistics/banks-and-other-financial-corporations/investment-companies"
+  }, 
+   {
+    "category":"Market & Investment Sentiment Indicators",
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBDE1/M.DE.Y.AEA1.A2P300000.F.C.I21.A?format=csv&lang=en", 
+    "file_name": "orders-received.csv",
+    "period": "month",
+    "description": "Orders received / At constant prices / Germany / Industry / Calendar and seasonally adjusted",
+    "link_full_description": "https://www.bundesbank.de/en/statistics/economic-activity-and-prices/orders-received-and-stock-of-orders#tar-2"
+  }, 
+  {
+    "category":"Market & Investment Sentiment Indicators",
     "url": "https://api.statistiken.bundesbank.de/rest/download/BBFBOPV/M.N.DE.W1.S1.S1.T.N.FA._T.F._Z.EUR._T._X.N.ALL?format=csv&lang=en", 
     "file_name": "balance_of_payments.csv",
     "period": "month",
     "description": "Financial account / Net / Rest of the world",
     "link_full_description": "https://www.bundesbank.de/en/statistics/external-sector/balance-of-payments"
-  }, 
-  {
-    "url": "https://api.statistiken.bundesbank.de/rest/download/BBNZ1/Q.DE.Y.H.0000.A?format=csv&lang=en", 
-    "file_name": "gdp.csv",
-    "period": "quarter",
-    "description": "Germany/Overall economy / GDP/Chain-linked index/Calendar and seasonally adjusted",
-    "link_full_description": "https://www.bundesbank.de/en/statistics/macroeconomic-accounting-systems/national-accounts"
-  }, 
-  {
-    "url": "https://api.statistiken.bundesbank.de/rest/download/BBIN1/M.D0.ECB.ECBMIN.EUR.ME?format=csv&lang=en", 
-    "file_name": "interest_rate.csv",
+  },
+    {
+    "category":"Market & Investment Sentiment Indicators",
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBFBOPV/M.N.DE.W1.S1.S1.T.N.FA._T.F._Z.EUR._T._X.N.ALL?format=csv&lang=en", 
+    "file_name": "shares_sale.csv",
     "period": "month",
-    "description": "ECB interest rates for main refinancing operations / End of month / SU0202",
-    "link_full_description": "https://www.bundesbank.de/en/statistics/money-and-capital-markets/interest-rates-and-yields"
-  }
+    "description": "Total purchases of domestic and foreign shares",
+    "link_full_description": "https://www.bundesbank.de/en/statistics/money-and-capital-markets/euro-money-market/euro-money-market-793382"
+  },
 ]
