@@ -1,13 +1,5 @@
 [
-  {
-    "category":"Economic Growth & Business Cycle Indicators",
-    "url": "https://api.statistiken.bundesbank.de/rest/download/BBNZ1/Q.DE.Y.H.0000.A?format=csv&lang=en", 
-    "file_name": "gdp.csv",
-    "period": "quarter",
-    "description": "Germany/Overall economy / GDP/Chain-linked index/Calendar and seasonally adjusted",
-    "link_full_description": "https://www.bundesbank.de/en/statistics/macroeconomic-accounting-systems/national-accounts"
-  }, 
-   {
+    {
     "category":"Economic Growth & Business Cycle Indicators",
     "url": "https://api.statistiken.bundesbank.de/rest/download/BBDE1/M.DE.Y.BAA1.A2P000000.G.C.I21.A?format=csv&lang=en", 
     "file_name": "production_sector.csv",
@@ -15,7 +7,14 @@
     "description": "Output in the production sector / Germany / Production sector including construction (B -D, F) / Calendar and seasonally adjusted",
     "link_full_description": "https://www.bundesbank.de/en/statistics/economic-activity-and-prices/output#tar-2"
   }, 
-  
+  {
+    "category":"Economic Growth & Business Cycle Indicators",
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBNZ1/Q.DE.Y.H.0000.A?format=csv&lang=en", 
+    "file_name": "gdp.csv",
+    "period": "quarter",
+    "description": "Germany/Overall economy / GDP/Chain-linked index/Calendar and seasonally adjusted",
+    "link_full_description": "https://www.bundesbank.de/en/statistics/macroeconomic-accounting-systems/national-accounts"
+  },   
     {
     "category":"Inflation & Monetary Policy Indicators",
     "url": "https://api.statistiken.bundesbank.de/rest/download/BBDP1/M.DE.Y.HVPI.C.A00000.I15.A?format=csv&lang=en", 
