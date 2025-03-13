@@ -89,7 +89,7 @@
   },
     {
     "category":"Market & Investment Sentiment Indicators",
-    "url": "https://api.statistiken.bundesbank.de/rest/download/BBFBOPV/M.N.DE.W1.S1.S1.T.N.FA._T.F._Z.EUR._T._X.N.ALL?format=csv&lang=en", 
+    "url": "https://api.statistiken.bundesbank.de/rest/download/BBSSP/M.AB.AKT.A.T.T._T?format=csv&lang=en", 
     "file_name": "shares_sale.csv",
     "period": "month",
     "description": "Total purchases of domestic and foreign shares",
