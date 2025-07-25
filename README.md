@@ -39,7 +39,7 @@ SelectKBest for top 15 features
 
 PCA to reduce dimensionality to 10 components
 
-Saves data in [processed_datasets foulder](https://github.com/EvgeniyStrizhak/My-master-s-thesis/tree/main/processed_datasets)
+Saves data in [processed_datasets folder](https://github.com/EvgeniyStrizhak/My-master-s-thesis/tree/main/processed_datasets)
 
 ### [4. Model_Training.ipynb](https://github.com/EvgeniyStrizhak/My-master-s-thesis/blob/main/Model_Training.ipynb)
 Trains and evaluates multiple models using Root Mean Squared Error (RMSE) as the performance metric:
