@@ -1,4 +1,4 @@
-#Stock Price Prediction Using Macro Indicators with Machine Learning and Deep Learning Models
+## Stock Price Prediction Using Macro Indicators with Machine Learning and Deep Learning Models
 **(Project In Progress)**
 
 This project aims to predict the monthly closing price of the Frankfurt Stock Exchange (GDAXI) index using a range of macroeconomic indicators. The prediction task is performed using several machine learning and deep learning models.
@@ -41,7 +41,7 @@ PCA to reduce dimensionality to 10 components
 
 Saves data in [processed_datasets foulder](https://github.com/EvgeniyStrizhak/My-master-s-thesis/tree/main/processed_datasets)
 
-4. [Model_Training.ipynb](https://github.com/EvgeniyStrizhak/My-master-s-thesis/blob/main/Model_Training.ipynb)
+### [4. Model_Training.ipynb](https://github.com/EvgeniyStrizhak/My-master-s-thesis/blob/main/Model_Training.ipynb)
 Trains and evaluates multiple models using Root Mean Squared Error (RMSE) as the performance metric:
 
 Linear Regression – Baseline model
@@ -54,7 +54,7 @@ LSTM Neural Network – Suffers from overfitting due to limited data
 
 ARIMA (ARIMAX) – Includes macro indicators, but performs poorly
 
-5. Model Testing and Final Conclusion
+### 5. Model Testing and Final Conclusion
 The best performance was achieved by XGBoost, with an RMSE of 721.0 on the test set.
 
 In comparison, Linear Regression resulted in a higher RMSE of 771.7, confirming the added value of nonlinear modeling.
